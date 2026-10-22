@@ -10,7 +10,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 -
 ### Features
 
-- 
+- Speed up ABI decoding: construct common leaf types directly and stop hex-decoding the whole remaining payload for every numeric/address value [#2330](https://github.com/LFDT-web3j/web3j/pull/2330)
 ### BREAKING CHANGES
 
 # [6.1.0](https://github.com/LFDT-web3j/web3j/releases/tag/v6.1.0) (2026-10-23)
